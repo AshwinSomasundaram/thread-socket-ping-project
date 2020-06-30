@@ -1,0 +1,26 @@
+Step 2. Client Started with port 3005
+	the client pid is 33480
+Step 3. Client has connected to Server
+Step 4. Client is ready to read the input file: a4ping2Data.txt
+Step 5. Client - Input data is www.utdallas.edu 5
+>>Client>> sending www.utdallas.edu 5 to the server
+>>Client>> Summary of ping command
+--- www.utdallas.edu ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4001ms
+rtt min/avg/max/mdev = 0.782/0.798/0.815/0.012 ms
+
+Step 5. Client - Input data is www.utdallas.edu 10
+>>Client>> sending www.utdallas.edu 10 to the server
+>>Client>> Summary of ping command
+--- www.utdallas.edu ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9002ms
+rtt min/avg/max/mdev = 0.750/0.784/0.828/0.034 ms
+
+Step 5. Client - Input data is www.google.com 15
+>>Client>> sending www.google.com 15 to the server
+>>Client>> Summary of ping command
+--- www.google.com ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14016ms
+rtt min/avg/max/mdev = 1.959/1.985/2.014/0.061 ms
+
+Step 12. End of the program

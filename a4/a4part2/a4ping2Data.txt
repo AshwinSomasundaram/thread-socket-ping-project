@@ -1,0 +1,3 @@
+www.utdallas.edu 5
+www.utdallas.edu 10
+www.google.com 15

@@ -1,0 +1,48 @@
+Step 1. a4ping1 process starts. pid=13578
+Step 2. Ready to read the input file: a4ping1Data.txt
+Step 3. Input data is www.utdallas.edu 5 3
+Step 4. Create Threads
+	Thread 1(tid=1001) to run ping -c 5 www.utdallas.edu
+	Thread 2(tid=1002) to run ping -c 5 www.utdallas.edu
+	Thread 3(tid=1003) to run ping -c 5 www.utdallas.edu
+Step 5. All Threads are terminated. The parent processing the results
+Processing results for www.utdallas.edu
+--- www.utdallas.edu ping statistics ---
+rtt min/avg/max/mdev = 0.733/0.804/0.887/0.058 ms
+--- www.utdallas.edu ping statistics ---
+rtt min/avg/max/mdev = 0.745/0.774/0.809/0.041 ms
+--- www.utdallas.edu ping statistics ---
+rtt min/avg/max/mdev = 0.756/0.828/1.020/0.100 ms
+Step 3. Input data is www.utdallas.edu 10 5
+Step 4. Create Threads
+	Thread 1(tid=1001) to run ping -c 10 www.utdallas.edu
+	Thread 2(tid=1002) to run ping -c 10 www.utdallas.edu
+	Thread 3(tid=1003) to run ping -c 10 www.utdallas.edu
+	Thread 4(tid=1004) to run ping -c 10 www.utdallas.edu
+	Thread 5(tid=1005) to run ping -c 10 www.utdallas.edu
+Step 5. All Threads are terminated. The parent processing the results
+Processing results for www.utdallas.edu
+--- www.utdallas.edu ping statistics ---
+rtt min/avg/max/mdev = 0.724/0.779/0.828/0.037 ms
+--- www.utdallas.edu ping statistics ---
+rtt min/avg/max/mdev = 0.742/0.809/0.841/0.044 ms
+--- www.utdallas.edu ping statistics ---
+rtt min/avg/max/mdev = 0.744/0.808/0.849/0.037 ms
+--- www.utdallas.edu ping statistics ---
+rtt min/avg/max/mdev = 0.737/0.784/0.846/0.049 ms
+--- www.utdallas.edu ping statistics ---
+rtt min/avg/max/mdev = 0.733/0.776/0.832/0.049 ms
+Step 3. Input data is www.google.com 15 3
+Step 4. Create Threads
+	Thread 1(tid=1001) to run ping -c 15 www.google.com
+	Thread 2(tid=1002) to run ping -c 15 www.google.com
+	Thread 3(tid=1003) to run ping -c 15 www.google.com
+Step 5. All Threads are terminated. The parent processing the results
+Processing results for www.google.com
+--- www.google.com ping statistics ---
+rtt min/avg/max/mdev = 1.921/1.972/2.031/0.065 ms
+--- www.google.com ping statistics ---
+rtt min/avg/max/mdev = 1.924/1.973/2.069/0.061 ms
+--- www.google.com ping statistics ---
+rtt min/avg/max/mdev = 1.926/1.979/2.032/0.053 ms
+Step 6. End of the program run

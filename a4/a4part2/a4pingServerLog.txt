@@ -1,0 +1,16 @@
+Step 1. Server Started with port 3005
+	the server pid is 33274
+Server running...waiting for connections.
+>>Server>> Received www.utdallas.edu 5 from the client
+Step 8. Server forking Child Process
+	child process (pid=33481) to run ping -c 5 www.utdallas.edu
+Step 9. Server sent the result of the ping command to the client via socket
+>>Server>> Received www.utdallas.edu 10 from the client
+Step 8. Server forking Child Process
+	child process (pid=33514) to run ping -c 10 www.utdallas.edu
+Step 9. Server sent the result of the ping command to the client via socket
+>>Server>> Received www.google.com 15 from the client
+Step 8. Server forking Child Process
+	child process (pid=33587) to run ping -c 15 www.google.com
+Step 9. Server sent the result of the ping command to the client via socket
+Server timed out
